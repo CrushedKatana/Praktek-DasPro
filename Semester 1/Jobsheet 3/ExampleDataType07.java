@@ -9,7 +9,7 @@ public class ExampleDataType07 {
         int number = 0x10;
         System.out.println("Blood group\t\t: " + (byte) bloodGroup);
         System.out.println("Distace\t\t: " + distance);
-        System.out.println("The number od residents\t: + theNumberOfResidents");
+        System.out.println("The number of residents\t: " + theNumberOfResidents);
         System.out.println("Temperature \t\t " + temperature );
         System.out.println("Weigt\t\t\t: " + number);
         System.out.println("Balance\t\t\t: " + balance);
