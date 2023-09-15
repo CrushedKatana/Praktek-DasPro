@@ -11,7 +11,7 @@ public class ExampleOperator07 {
         int y = 12;
         System.out.println(x > y || y == x && y <= x);
         int z = x^y;
-        System.out.println("The result x ^ y is " +z);
+        System.out.println("The result of x ^ y is " +z);
         z%= 2;
         System.out.println("The final result is " + z);
     }
