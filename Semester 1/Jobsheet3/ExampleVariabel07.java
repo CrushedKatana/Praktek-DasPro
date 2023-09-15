@@ -1,4 +1,4 @@
-public class ExampleVariabel07{
+public class jobsheet3{
 public static void main(String[] args) {
     String oneOfMyHobbies = "Playing futsal";
 boolean isSmart = true;
