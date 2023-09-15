@@ -11,7 +11,7 @@ public class ExampleDataType07 {
         System.out.println("Distace\t\t: " + distance);
         System.out.println("The number of residents\t: " + theNumberOfResidents);
         System.out.println("Temperature \t\t " + temperature );
-        System.out.println("Weigt\t\t\t: " + number);
+        System.out.println("Weigt\t\t\t: " + (float) weight);
         System.out.println("Balance\t\t\t: " + balance);
         System.out.println("Number\t\t\t: " + number);
        }
