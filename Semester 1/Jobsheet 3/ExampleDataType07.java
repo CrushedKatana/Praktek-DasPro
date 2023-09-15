@@ -13,6 +13,6 @@ public class ExampleDataType07 {
         System.out.println("Temperature \t\t " + temperature );
         System.out.println("Weigt\t\t\t: " + number);
         System.out.println("Balance\t\t\t: " + balance);
-        System.out.println();
+        System.out.println("Number\t\t\t: " + number);
        }
 }
