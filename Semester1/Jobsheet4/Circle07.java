@@ -15,8 +15,7 @@ public class Circle07 {
 
     System.out.println("Area: "+area);
     System.out.println("Circumference: "+circumference);
-
-
+    
     }
     
 }
