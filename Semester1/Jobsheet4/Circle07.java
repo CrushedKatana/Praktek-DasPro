@@ -14,7 +14,7 @@ public class Circle07 {
     circumference = 2*3.14*r;
 
     System.out.println("Area: "+area);
-    System.out.println("Cir");
+    System.out.println("Circumference: "+circumference);
 
 
     }
