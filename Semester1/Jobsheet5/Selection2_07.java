@@ -38,7 +38,7 @@ public class Selection2_07 {
     }else { 
         predikat = "E";
     }
-    System.out.println("Predikat Nilai Anda"+predikat);
+    System.out.println("Predikat Nilai Anda : "+predikat);
 
     }
 }     
