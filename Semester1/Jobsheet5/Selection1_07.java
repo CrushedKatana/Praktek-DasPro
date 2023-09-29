@@ -8,11 +8,16 @@ public class Selection1_07 {
     
     System.out.print("Input a number = ");
     int number = input07.nextInt();
+    
+    String hasil;
+    hasil = (number%2==0) ? "is even number" : "is an odd number";
+    System.out.println(number + hasil);
 
-    if (number%2 == 0){
+    /*if (number%2 == 0){
       System.out.println(number+" is an even number!");
     }else{
       System.out.println(number+" is an odd number!");
-    }
+    }*/
+
   }  
 }
