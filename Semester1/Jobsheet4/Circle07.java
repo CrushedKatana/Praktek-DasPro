@@ -7,15 +7,16 @@ public class Circle07 {
     Scanner input = new Scanner(System.in);
     int r;
     double circumference, area;
+    float phi =3.14F;
     
-    System.out.println("input radius: ");  
+    System.out.println("input radius: ");
     r = input .nextInt();
-    area = 3.14*r*r;
-    circumference = 2*3.14*r;
+    area = phi*r*r;
+    circumference = 2*phi*r;
 
     System.out.println("Area: "+area);
     System.out.println("Circumference: "+circumference);
     
     }
-    
 }
+

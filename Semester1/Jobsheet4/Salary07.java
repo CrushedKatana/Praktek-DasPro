@@ -6,9 +6,12 @@ public class Salary07 {
     public static void main(String[] args) {
         Scanner input =new Scanner(System.in);
 
-        int numAttendance, numAbsence, totalSalary;
-        int salary=40000, salaryDeduction=25000;
+        int numAttendance, numAbsence, totalSalary, salary, salaryDeduction;
 
+        System.out.print("Input salary: ");
+        salary = input.nextInt();
+        System.out.print("Input salary deduction: ");
+        salaryDeduction = input.nextInt();
         System.out.println("Input attendance number: ");
         numAttendance = input.nextInt();
         System.out.println("Input absence number: ");
