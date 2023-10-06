@@ -1,0 +1,42 @@
+package Semester1.Jobsheet6;
+
+import java.util.Scanner;
+
+public class Selection2Exp3_07 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        String category;
+        int income, netIncome; 
+        double tax;
+
+        System.out.println("Input category = ");
+        category = input.nextLine();
+        System.out.println("Input income = ");
+        income = input.nextInt();
+
+        if(category.equalsIgnoreCase( "worker")){
+            if(income <= 2000000)
+                tax = 0.1;
+            else if(income <= 3000000)
+                tax = 0.15;
+            else
+                tax = 0.2;
+            netIncome = (int) (income - (tax*income));
+            System.out.println("Nett salary = "+netIncome); }
+            else if(category.equalsIgnoreCase("businessman")){
+            if(income <= 2500000)
+                tax = 0.15;
+            else if(income <= 3500000)
+                tax = 0.2;
+            else
+                tax = 0.25;
+            netIncome = (int) (income - (tax*income));
+            System.out.println("Nett income = "+netIncome);
+            }else
+            System.out.println("Invalid category!");
+
+
+    }
+    }
+
