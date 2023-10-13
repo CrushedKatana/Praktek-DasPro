@@ -21,9 +21,17 @@ public class WhileOvertimePay07 {
         ovetimeHours = input.nextInt();
         i++;
         
-        if
+        if(position.equalsIgnoreCase("director")){
+            continue;
+        }else if(position.equalsIgnoreCase("manager")){
+            overtimePay= ovetimeHours*100000;
+        }else if (position.equalsIgnoreCase("staff")){
+            overtimePay=ovetimeHours*75000;
+        }
 
-
+        totalOvertimePay += overtimePay;
     }
+
+    System.out.println("Total of Ovetime Pay ="+totalOvertimePay);
 }   
 }
