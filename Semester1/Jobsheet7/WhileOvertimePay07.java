@@ -17,6 +17,9 @@ public class WhileOvertimePay07 {
      while(i<numEmployee){
         System.out.print("Position of employee "+(i+1)+" (director, manager, staff) = ");
         position = input.next();
+        if (position.equalsIgnoreCase("t")) {
+            break; 
+        }
         System.out.print ("Employee "+(i+1)+" overtime hours =");
         ovetimeHours = input.nextInt();
         i++;
