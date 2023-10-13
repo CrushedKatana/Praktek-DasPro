@@ -9,7 +9,10 @@ public class DoWhileLeaveEntillement07 {
     int jatahCuti, jumlahHari;
     String konfirmasi;
 
-    do{
+    System.out.println("Jumlah hari cuti= ");
+    jatahCuti = input.nextInt();
+       
+        do{
         System.out.println("Apakah Anda ingim mengambil cuti (y/t)?");
         konfirmasi = input.next();
         
@@ -25,7 +28,7 @@ public class DoWhileLeaveEntillement07 {
                 break;
             }
         }
-    }while (jatahCuti > 0);
+    }while (jatahCuti >0);
     
 }  
 }
