@@ -13,7 +13,7 @@ public class DoWhileLeaveEntillement07 {
     jatahCuti = input.nextInt();
        
         do{
-        System.out.println("Apakah Anda ingim mengambil cuti (y/t)?");
+        System.out.println("Apakah Anda ingim mengambil cuti (y/n)?");
         konfirmasi = input.next();
         
         if(konfirmasi.equalsIgnoreCase("y")){
@@ -23,12 +23,13 @@ public class DoWhileLeaveEntillement07 {
             if(jumlahHari <= jatahCuti) {
                 jatahCuti -= jumlahHari;
                 System.out.println("Sisa jatah cuti: "+jatahCuti);
-            } else{
+            }else{
                 System.out.println("Sisa jatah cuti Anda tidak mencukupi");
-                break;
+               
             }
-        }
-    }while (jatahCuti >0);
-    
-}  
+         /*}else if (konfirmasi.equalsIgnoreCase("n")){
+            break;*/
+         }
+        }while (jatahCuti >0);
+    }  
 }
