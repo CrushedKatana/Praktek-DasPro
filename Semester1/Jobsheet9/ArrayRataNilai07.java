@@ -10,7 +10,7 @@ public class ArrayRataNilai07 {
         double total = 0;
         double rata;
 
-        
+        for (int  i= 0; nilaiMhs.length; )
 
     }
 }
