@@ -8,9 +8,16 @@ public class ArrayRataNilai07 {
 
         int[] nilaiMhs= new int [10];
         double total = 0;
-        double rata;
+        double rata2;
 
-        for (int  i= 0; nilaiMhs.length; )
-
+        for (int  i= 0; i < nilaiMhs.length;i++ ){
+            System.out.print("Masukan nilai mahasiswa ke-"+(i+1)+" : ");
+            nilaiMhs[i] = sc.nextInt();
+        }
+        for (int  i= 0; i < nilaiMhs.length;i++ ){
+            total += nilaiMhs[i];
+        }
+        rata2 = total/nilaiMhs.length;
+        System.out.print("Rata-rata nilai="+rata2);
     }
 }
