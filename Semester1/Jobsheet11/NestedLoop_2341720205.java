@@ -18,9 +18,13 @@ public class NestedLoop_2341720205 {
         int i = 0;
         for(Double[] baris : temps){
             System.out.print("Kota ke-" + (i + 1) + ": ");
+            double rata = 0;
             for (Double kolom : baris){
                 System.out.print(kolom + " ");
+                rata += kolom;
             }
+            rata /= baris.length;
+            System.out.print("Rata-rata: = " + rata);
             System.out.println();
             i++;
         }
