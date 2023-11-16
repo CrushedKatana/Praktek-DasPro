@@ -15,12 +15,14 @@ public class NestedLoop_2341720205 {
             }
             System.out.println();
         }
-        for(int i = 0; i < temps.length; i++){
+        int i = 0;
+        for(Double[] baris : temps){
             System.out.print("Kota ke-" + (i + 1) + ": ");
-            for (int j = 0; j < temps[0].length; j++){
-                System.out.print(temps[i][j] + " ");
+            for (Double kolom : baris){
+                System.out.print(kolom + " ");
             }
             System.out.println();
+            i++;
         }
     }
 }
