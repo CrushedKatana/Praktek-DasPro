@@ -11,7 +11,7 @@ public class ExpressingGratitude_07 {
     }
     public static String additionalGreetings() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Say additional greeting: ");
+        System.out.print("Additional greeting: ");
         String additionalGreeting = sc.nextLine();
         return additionalGreeting;
     }
