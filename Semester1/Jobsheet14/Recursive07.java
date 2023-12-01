@@ -5,7 +5,7 @@ public class Recursive07 {
         if (n==1)
             return 1;
         else
-            return n*factorialRecusive(n-1);
+            return n*factorialRecursive(n-1);
     }
     static int factorialInterative(int n){
         int factorial = 1;
@@ -16,7 +16,7 @@ public class Recursive07 {
     }
     public static void main(String[] args) {
         System.out.println("Hello world!!!");
-        System.out.println(factorialRecursive(n:5));
-        System.out.println(factorialInterative(n:5));
+        System.out.println(factorialRecursive(5));
+        System.out.println(factorialInterative(5));
     }
 }
