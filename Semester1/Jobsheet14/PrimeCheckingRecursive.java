@@ -3,7 +3,7 @@ package Semester1.Jobsheet14;
 import java.util.Scanner;
 
 public class PrimeCheckingRecursive {
-       static boolean primeRecursive(int x) {
+    static boolean primeRecursive(int x) {
         if (x <= 1) {
             return false;
         } else {
