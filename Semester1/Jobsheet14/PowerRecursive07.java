@@ -15,7 +15,8 @@ public class PowerRecursive07 {
         int base = input.nextInt();
         System.out.print("Input Power Number: ");
         int power = input.nextInt();
-        System.out.println("Result of "+base+" power "+power+" = "+
-                            calculatePower(base, power));
+        System.out.println("Result of "+base+" power "+power+" = ");
+        int result = calculatePower(base, power);
+        System.out.println("\b"+result);
     }
 }
